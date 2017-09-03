@@ -1,7 +1,7 @@
 Pod::Spec.new do |ddq|
 
 	ddq.name = 'NewPods'
-	ddq.version = '0.0.1'
+	ddq.version = '0.0.2'
 	ddq.license = 'MIT'
 	ddq.summary = 'A pods'
 	ddq.homepage = 'https://github.com/MyNameDDQ/NewPods.git'
