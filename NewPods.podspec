@@ -7,7 +7,7 @@ Pod::Spec.new do |ddq|
 	ddq.homepage = 'https://github.com/MyNameDDQ/NewPods.git'
 	ddq.authors = { 'MyNameDDQ' => 'ddq107038@163.com'}
 	ddq.source = { :git => 'https://github.com/MyNameDDQ/NewPods.git', :tag => ddq.version}
-	ddq.requires_arc = ture
+	ddq.requires_arc = true
 	ddq.ios.deployment_target = '7.0'
 	
 	ddq.subspec 'UI' do |ui|
