@@ -1,7 +1,7 @@
 Pod::Spec.new do |ddq|
 
 	ddq.name = 'NewPods'
-	ddq.version = '0.0.2'
+	ddq.version = '0.0.3'
 	ddq.license = 'MIT'
 	ddq.summary = 'A pods'
 	ddq.homepage = 'https://github.com/MyNameDDQ/NewPods.git'
@@ -13,5 +13,9 @@ Pod::Spec.new do |ddq|
 	ddq.subspec 'UI' do |ui|
 		
 		ui.source_files = 'NewPods/DDQView.{h,m}'
+	end
+	ddq.subspec 'View' do |view|
+
+		view.source_files = 'NewPods/Core/DDQ*.{h,m}'
 	end
 end
