@@ -1,7 +1,7 @@
 Pod::Spec.new do |ddq|
 
 	ddq.name = 'NewPods'
-	ddq.version = '0.0.4'
+	ddq.version = '0.0.5'
 	ddq.license = 'MIT'
 	ddq.summary = 'A pods'
 	ddq.homepage = 'https://github.com/MyNameDDQ/NewPods.git'
@@ -10,6 +10,7 @@ Pod::Spec.new do |ddq|
 	ddq.requires_arc = true
 	ddq.ios.deployment_target = '7.0'
 	ddq.source_files = 'NewPods/NewPods.h'	
+	ddq.public_header_files = 'NewPods/NewPods.h'
 
 	ddq.subspec 'UI' do |ui|
 		
